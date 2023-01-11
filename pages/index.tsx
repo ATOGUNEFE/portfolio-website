@@ -164,8 +164,20 @@ export default function Home() {
             initial={"start"}
             whileInView={"end"}
             className='overflow-hidden'>
+              <a target={"new"}  href="https://instagram.com/efe.xx_xx?igshid=YmMyMTA2M2Y=">
+             <AiFillInstagram />
+              </a>
+            </m.div>
+            </div>
+            <div className='overflow-hidden'>
+            <m.div
+            variants={rollin}
+            initial={"start"}
+            animate={"end"}
+            whileInView={"end"}
+            className='overflow-hidden'>
               <a target={"new"}  href="https://twitter.com/AtogunE">
-             <AiFillTwitterCircle />
+           <AiFillTwitterCircle />
               </a>
             </m.div>
             </div>
@@ -202,7 +214,7 @@ export default function Home() {
           >
           <Image src={icon1} 
              alt="Picture of the author"
-    
+             className="rounded-full"
            />
 
           </m.div>

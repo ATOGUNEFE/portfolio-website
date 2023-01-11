@@ -425,33 +425,33 @@ export default function Home() {
               variants={fadein}
               initial={"start"}
               whileInView={"end"}
-              whileHover={{scale:1.3, position: "relative", zIndex: 1}}
+<!--               whileHover={{scale:1.3, position: "relative", zIndex: 1}} -->
               className='basis-1/3 flex-1'>
-                <Image src={web1} className="rounded-lg object-cover " alt='pt' />
+                <Image src={web1} className="rounded-lg  lg:hover:scale-125  object-cover " alt='pt' />
               </m.div>
               <m.div
               variants={fadein}
               initial={"start"}
               whileInView={"end"}
-              whileHover={{scale:1.3, position: "relative", zIndex: 1}}
+<!--               whileHover={{scale:1.3, position: "relative", zIndex: 1}} -->
               className='basis-1/3 flex-1'>
-                <Image src={web2} className="rounded-lg object-cover " alt='pt'  />
+                <Image src={web2} className="rounded-lg  lg:hover:scale-125  object-cover " alt='pt'  />
               </m.div>
               <m.div
               variants={fadein}
               initial={"start"}
               whileInView={"end"}
-              whileHover={{scale:1.3, position: "relative", zIndex: 1}}
+<!--               whileHover={{scale:1.3, position: "relative", zIndex: 1}} -->
               className='basis-1/3 flex-1'>
-                <Image src={web3} className="rounded-lg object-cover " alt='pt'  />
+                <Image src={web3} className="rounded-lg  lg:hover:scale-125  object-cover " alt='pt'  />
               </m.div>
               <m.div
               variants={fadein}
               initial={"start"}
               whileInView={"end"}
-              whileHover={{scale:1.3, position: "relative", zIndex: 1}}
+<!--               whileHover={{scale:1.3, position: "relative", zIndex: 1}} -->
               className='basis-1/3 flex-1'>
-                <Image src={web4} className="rounded-lg object-cover " alt='pt'  />
+                <Image src={web4} className="rounded-lg  lg:hover:scale-125  object-cover " alt='pt'  />
               </m.div>
               
             </div>

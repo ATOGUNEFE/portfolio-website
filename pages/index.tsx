@@ -14,19 +14,19 @@ import { FaNodeJs } from "react-icons/fa";
 
 
 import Image from "next/image";
-import icon1 from "../public/myavatar.jpg"
-import design  from "../public/design.png";
-import desig1  from "../public/design.svg";
-import code  from "../public/coding.png";
+import icon1 from "public/icon1.JPG"
+import design  from "public/design.png";
+import desig1  from "public/design.svg";
+import code  from "public/coding.png";
 import consulating from "../public/consulting.png";
-import web1 from "../public/web1.png";
-import web2 from "../public/web2.png";
-import web3 from "../public/web6.png";
-import web4 from "../public/web4.png";
+import web1 from "public/web1.png";
+import web2 from "public/web2.png";
+import web3 from "public/web6.png";
+import web4 from "public/web4.png";
 
 import { useState} from "react";
 const inter = Inter({ subsets: ['latin'] })
-const cv = '../public/cv.pdf'
+// const cv = '../public/cv.pdf'
 
 export default function Home() {
  const [darkMode, setDarkMode] = useState(false)

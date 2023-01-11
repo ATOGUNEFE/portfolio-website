@@ -164,23 +164,12 @@ export default function Home() {
             initial={"start"}
             whileInView={"end"}
             className='overflow-hidden'>
-              <a target={"new"}  href="https://instagram.com/efe.xx_xx?igshid=YmMyMTA2M2Y=">
-             <AiFillInstagram />
-              </a>
-            </m.div>
-            </div>
-            <div className='overflow-hidden'>
-            <m.div
-            variants={rollin}
-            initial={"start"}
-            animate={"end"}
-            whileInView={"end"}
-            className='overflow-hidden'>
-              <a target={"new"}  href="https://twitter.com/AtogunE">
+              <a target={"new"} href="https://twitter.com/AtogunE">
            <AiFillTwitterCircle />
               </a>
             </m.div>
             </div>
+           
             <div className='overflow-hidden'>
             <m.div
             variants={rollin}

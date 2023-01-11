@@ -398,16 +398,7 @@ export default function Home() {
             whileInView={"end"}
             className=' dark:text-gray-300 text-3xl py-3 font-medium'>Portfolios</m.h3>
           </div>
-          {/* <div className='overflow-hidden'>
-            <m.p  
-            variants={rollin}
-            initial="start"
-            whileInView={"end"}
-            className='text-md text-gray-500 leading-8 py-2 md:max-w-5xl'>
-              Since the beginning of my journey as a freelance designer and developer, i've done remote work for <span className='text-orange-600'>agancies</span> consulted for <span className='text-orange-600'>startups </span>
-              and collaborated with talented people to create degital products for both bussiness and consumer use.
-            </m.p>
-          </div> */}
+      
           <div className='overflow-hidden'>
             <m.p  
             variants={rollin}
@@ -448,8 +439,7 @@ export default function Home() {
               <m.div
               variants={fadein}
               initial={"start"}
-              whileInView={"end"}
-<!--          
+              whileInView={"end"}        
               className='basis-1/3 flex-1'>
                 <Image src={web4} className="rounded-lg  lg:hover:scale-125  object-cover " alt='pt'  />
               </m.div>

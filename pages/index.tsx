@@ -14,7 +14,7 @@ import { FaNodeJs } from "react-icons/fa";
 
 
 import Image from "next/image";
-import icon1 from '../public/icon1.JPG'
+import icon1 from "../public/myavatar.jpg"
 import design  from "../public/design.png";
 import desig1  from "../public/design.svg";
 import code  from "../public/coding.png";

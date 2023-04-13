@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import { useDisclosure } from '@chakra-ui/react';
+
 import { Inter } from '@next/font/google';
 import { myProjects } from '../data';
 import { BsFillMoonStarsFill, BsFillTelephoneFill } from 'react-icons/bs';

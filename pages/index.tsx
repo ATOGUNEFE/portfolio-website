@@ -41,7 +41,7 @@ export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
   const [isShow, setIsShow] = useState(false);
   const [hoverId, setHoverId] = useState('');
-  const { isOpen, onOpen, onClose } = useDisclosure();
+
 
   const handleHover = (id) => {
     // setIsShow(!isShow);

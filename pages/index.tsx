@@ -110,7 +110,7 @@ export default function Home() {
               }
               </li> 
               <m.li 
-              ><a className=' text-white bg-gradient-to-b from-orange-600 to-orange-400 px-5 py-2 rounded-md ml-8' target={"new"} href={"https://drive.google.com/file/d/1gONrUmzH1nvmaQxpETHKQ3Xa86zhwfM7/view?usp=sharing"}>Resume</a></m.li>
+              ><a className=' text-white bg-gradient-to-b from-orange-600 to-orange-400 px-5 py-2 rounded-md ml-8' target={"new"} href={"https://drive.google.com/file/d/1z-ptQOHdL4PS_keDYA1Hz-tNNjnUBkJ4/view"}>Resume</a></m.li>
             </m.ul>
           </nav>
           <div className='overflow-hidden'>

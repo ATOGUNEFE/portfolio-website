@@ -257,7 +257,7 @@ export default function Home() {
                 className="relative mt-4 w-60 h-60 bg-gradient-to-b mx-auto from-orange-600 rounded-full overflow-hidden md:h-70 md:w-70"
               >
                 <m.div variants={fadein} initial={'start'} whileInView="end">
-                  <img src="/icon1.jpg" alt="Picture of the author" />
+                  <img src="/myavatar.jpeg" alt="Picture of the author" />
                 </m.div>
               </m.div>
             </section>

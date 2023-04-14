@@ -548,6 +548,7 @@ export default function Home() {
                           <a
                             className="flex gap-2 items-center"
                             href={project.url}
+                              target="new"
                           >
                             <span>Link</span>
                             <BiWorld />

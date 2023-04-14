@@ -27,7 +27,7 @@ import icon1 from '../public/icon1.jpg';
 import design from '../public/design.png';
 // import desig1 from '../public/design.svg';
 import code from '../public/coding.png';
-import consulating from '../public/consulting.png';
+// import consulating from '../public/consulting.png';
 import web1 from '../public/web1.png';
 import web2 from '../public/web2.png';
 import web3 from '../public/web6.png';
@@ -257,7 +257,7 @@ export default function Home() {
                 className="relative mt-4 w-60 h-60 bg-gradient-to-b mx-auto from-orange-600 rounded-full overflow-hidden md:h-70 md:w-70"
               >
                 <m.div variants={fadein} initial={'start'} whileInView="end">
-                  <Image src={icon1} alt="Picture of the author" />
+                  <Image src='/icon1.jpg' alt="Picture of the author" />
                 </m.div>
               </m.div>
             </section>
